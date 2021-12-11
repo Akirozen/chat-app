@@ -52,6 +52,16 @@ body {
   transition: 0.8s ease;
   background: #fff;
 }
+.auth__form-container_fields-content h1 {
+  text-align: center;
+  font-family: Geneva, Tahoma, sans-serif;
+  color: #05245a;
+}
+.auth__form-container_fields-content h5 {
+  font-family: Geneva, Tahoma, sans-serif;
+  color: #05245a;
+  opacity: 0.5;
+}
 
 .auth__form-container_fields-content p {
   font-size: 1.5rem;
@@ -1252,7 +1262,7 @@ ul.str-chat__simple-reactions-list:hover {
 
 .str-chat__edit-message-form
   .str-chat__message-team-form-footer
-  button[type="submit"] {
+  button[type='submit'] {
   color: var(--primary-color);
 }
 
